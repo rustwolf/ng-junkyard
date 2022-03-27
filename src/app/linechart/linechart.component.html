@@ -1,0 +1,6 @@
+<div class = "line-graph-ctn">
+    <div *ngFor = "let item of lineData" class="bubble" 
+        [ngStyle] = "{height : item.radius +'px', width : item.radius+'px', 'margin-top' : '-'+item.radius/2+'px'}"
+    ></div>
+  
+</div>
