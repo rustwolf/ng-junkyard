@@ -4,6 +4,7 @@
     width: 500px;
     display: flex;
     justify-content: space-evenly;
+    background-color : red;
 }
 
 .bubble {
