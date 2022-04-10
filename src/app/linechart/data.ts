@@ -4,10 +4,6 @@ var data = [
       display: '2018-08-29',
       value: '2018-08-29',
     },
-    amount: {
-      display: '35,000',
-      value: 35000,
-    },
     stage: {
       display: 'Id. Decision Makers',
       value: 'Id. Decision Makers',
