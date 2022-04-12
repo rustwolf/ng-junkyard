@@ -1,28 +1,5 @@
 var data = [
   {
-    close_date: {
-      display: '2018-08-29',
-      value: '2018-08-29',
-    },
-    stage: {
-      display: 'Id. Decision Makers',
-      value: 'Id. Decision Makers',
-    },
-    opportunity_name: {
-      display: 'Edge Emergency Generator',
-      value: 'Edge Emergency Generator',
-    },
-    account_name: {
-      display: 'Edge Communications',
-      value: 'Edge Communications',
-    },
-    opp_owner: {
-      display: '-',
-    },
-    id: {
-      display: '60100e32bfdf390404d0ff50',
-      value: '60100e32bfdf390404d0ff50',
-    },
     activity_value: [
       {
         id: '606ac2042abb8048db2601cf',
