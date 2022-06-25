@@ -12,7 +12,7 @@ export class LearningRxjsComponent implements OnInit {
 
   ngOnInit(): void {
     // this.newSubject();
-    this.newStream();
+    // this.newStream();
   }
 
   newStream() {
