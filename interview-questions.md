@@ -25,3 +25,6 @@ Lifecycle hooks are the methods in the component that are fired by the framework
 > 4. ngDoCheck.
 > 5. ngAfterViewInit (This is called after the components and children are rendered on DOM)
 > 6. ngOnDestroy.
+
+5. What is the interface for observer. 
+> next, error, & complete
