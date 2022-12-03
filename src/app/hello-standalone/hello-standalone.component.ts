@@ -21,4 +21,7 @@ export class HelloStandaloneComponent implements OnInit {
       })
   }
 
+  trackByFn(item:any) {
+    return item.id
+  }
 }
