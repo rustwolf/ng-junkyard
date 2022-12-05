@@ -7,4 +7,9 @@ li {
     background-color: azure;
     border : 1px solid cornflowerblue;
     border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+}
+
+li:hover {
+    opacity: 0.3;
 }
