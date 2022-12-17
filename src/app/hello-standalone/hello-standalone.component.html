@@ -1,7 +1,24 @@
 <h1 style="text-align: center;">I am Standalone component</h1>
 
-<div style = "max-height: 80vh; overflow: auto;">
+<!-- <div style = "max-height: 80vh; overflow: auto;">
     <ul>
         <li class = "animate__animated animate__bounce" *ngFor = "let item of data; trackBy: trackByFn">{{item.title}}</li>
     </ul>
-</div>
+</div> -->
+
+<button (click)="isOpen = !isOpen" type="button" cdkOverlayOrigin #trigger="cdkOverlayOrigin">
+  {{isOpen ? "Close" : "Open"}}
+</button>
+
+<!-- This template displays the overlay content and is connected to the button -->
+<ng-template
+  cdkConnectedOverlay
+  [cdkConnectedOverlayOrigin]="trigger"
+  [cdkConnectedOverlayOpen]="isOpen"
+>
+  <ul class="example-list">
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+  </ul>
+</ng-template>
