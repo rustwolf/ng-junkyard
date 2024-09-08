@@ -47,6 +47,6 @@ export class UsersComponent implements OnInit, OnDestroy {
 
   ngOnDestroy(): void {
     // this.portalService.setPortal();
-    // this.portalContent.detach();
+    this.portalContent.detach();
   }
 }
