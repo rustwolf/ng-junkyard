@@ -37,9 +37,6 @@ export class UsersComponent implements OnInit, OnDestroy {
   }
 
   ngOnInit(): void {
-    // throw new Error('Method not implemented.');
-    // this.portal = new TemplatePortal(this.portalContent, this.viewContainerRef);
-    console.log('we Are here');
     this.portalService.setPortal(this.portalContent);
     this.changeDetectorRef.detectChanges();
    
