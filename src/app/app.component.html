@@ -1,1 +1,17 @@
-<p> Hello World </p>
+<div
+    style="display: flex; flex-direction: row; justify-content: space-between; align-items: center; background-color: #e6f2ff; padding: 10px;">
+    <div style="display: flex; gap: 20px;">
+        <a routerLink="/customers">Customers</a>
+        <a routerLink="/users">Users</a>
+    </div>
+    <div style="margin-left: auto;">
+        <ng-container *ngIf="portal$ | async as portal">
+            <ng-template [cdkPortalOutlet]="portal">
+            </ng-template>
+        </ng-container>
+    </div>
+</div>
+
+<div>
+    <router-outlet></router-outlet>
+</div>
