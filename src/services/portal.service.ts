@@ -18,7 +18,7 @@ export class PortalService {
   
   }
 
-  setPortal(portal: TemplatePortal) {
+  setPortal(portal: any) {
     this.activePortal.next(portal);
   }
 
